@@ -1,5 +1,5 @@
-const APY_KEY = process.env.REACT_APP_API_KEY;
+const API_KEY = "33985597-35f4fde0-24730e7f-fc38ac15";
 
-const API_URL = "https://fortniteapi.io/v2/shop?lang=ru";
+const API_URL = "https://fortniteapi.io/v1/shop?lang=ru";
 
-export { APY_KEY, API_URL };
+export { API_KEY, API_URL };
