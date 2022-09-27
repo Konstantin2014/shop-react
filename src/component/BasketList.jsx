@@ -31,6 +31,9 @@ function BasketList(props) {
       )}
       <li className="collection-item active indigo darken-1">
         Общая сумма: {totalPrice} грн.
+        <button className="secondary-content btn-small indigo lighten-5 black-text">
+          Заказать
+        </button>
       </li>
       <i className="material-icons basket-close" onClick={handleBasketShow}>
         close
