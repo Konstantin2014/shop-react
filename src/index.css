@@ -83,3 +83,9 @@ code {
     opacity: 1;
   }
 }
+
+.basket-quantity {
+  cursor: pointer;
+  vertical-align: middle;
+  color: rgb(11, 140, 245);
+}
