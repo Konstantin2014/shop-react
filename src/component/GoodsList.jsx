@@ -4,7 +4,7 @@ function GoodsList(props) {
   const { goods = [], addToBasket = Function.prototype } = props;
 
   if (!goods.length) {
-    <h3>Ничего нет</h3>;
+    <h3>Ничего ненайдено</h3>;
   }
 
   return (

@@ -21,7 +21,7 @@ function GoodsItem(props) {
         <button
           className="btn indigo darken-1"
           onClick={() => {
-            addToBasket(id, name, price);
+            addToBasket({ id, name, price });
           }}
         >
           Купить
